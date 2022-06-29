@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>background template</title>
+	<style>
+	.container{
+		width: 100%;
+		height: 100px;
+		background-color:gray;
+		color: whitesmoke;
+		text-align: center;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+	}
+	.banner{
+		width: 100%;
+		height: 100vh;
+		background-color: lightblue;
+		color: black;
+		text-align: center;
+		align-items: center;
+		display: flex;
+		margin-top:20px;
+		justify-content: center;
+		background-image: linear-gradient(orange,white,green);
+	}
+	.circle{
+		width: 250px;
+		height: 250px;
+		background-color: yellow;
+		border-radius: 50%;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		background-image: linear-gradient(orange,white,green);
+	}
+	#sec1{
+		display: flex;
+		justify-content: space-evenly;
+	}
+	h1{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	main{
+		width: 50%;
+		height: 500px;
+		background-color: gray;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		font-size: 30px;
+	}
+	#sec2{
+		display: flex;
+		justify-content: space-between;
+	}
+	aside{
+		width: 48%;
+		height: 500px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	aside .art{
+		width: 100%;
+		height: 150px;
+		background-color: orange;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 30px;
+	}
+	#sec3{
+		display: flex;
+		justify-content: space-evenly;
+	}
+	.box{
+		width: 20%;
+		height: 250px;
+		background-color: red;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-image: linear-gradient(orange,white,green);
+	}
+	footer{
+		width: 100%;
+		height: 100px;
+		background-color: hotpink;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 50px;
+		margin-bottom: 0px;
+	}
+
+	
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>header</h1>
+	</div>
+	<div class="banner">
+		<h1>Banner</h1>
+	</div>
+	<h1>section-1</h1>
+	<section id="sec1">
+		<div class="circle">Circle1</div>
+		<div class="circle">Circle2</div>
+		<div class="circle">Circle3</div>
+		<div class="circle">Circle4</div>
+	</section>
+	<h1>Section-2</h1>
+	<section id="sec2">
+		<main>main content</main>
+		<aside>
+			<article class="art">
+				article1
+			</article>
+			<article class="art">
+				article2
+			</article>
+			<article class="art">
+				article3
+			</article>
+
+		</aside>
+	</section>
+	<h1>section-3</h1>
+	<section id="sec3">
+		<div class="box">box1</div>
+		<div class="box">box2</div>
+		<div class="box">box3</div>
+		<div class="box">box4</div>
+    </section>
+    <footer>
+    	footer
+    </footer>
+
+
+</body>
+</html>
